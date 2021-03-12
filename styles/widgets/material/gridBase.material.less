@@ -370,8 +370,15 @@
         }
     }
 
-    .dx-@{widgetName}-edit-popup .dx-error-message {
-        padding: @MATERIAL_GRID_BASE_CELL_PADDING;
+    .dx-@{widget-name}-edit-popup {
+        .dx-scrollable-container {
+            margin-left: -10px;
+            padding-left: 10px;
+        }
+
+        .dx-error-message {
+            padding: @MATERIAL_GRID_BASE_CELL_PADDING;
+        }
     }
 
     .dx-@{widgetName}-headers,
